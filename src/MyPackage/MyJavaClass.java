@@ -6,6 +6,9 @@ public class MyJavaClass {
         int a = 10;
         System.out.println(a);
 
+        int c = 2;
+        System.out.println(c);
+
         
     }
 
