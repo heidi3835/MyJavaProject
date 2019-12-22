@@ -6,7 +6,7 @@ public class MyJavaClass {
        //Question 1
         String myStatement = "I am a good programmer";
         System.out.println(myStatement.substring(11));
-        System.out.println(myStatement.length());
+        System.out.println("Total number of words : " +myStatement.codePointCount(0,17));
         System.out.println(myStatement.replace('r','f'));
 
         //Question 2
@@ -38,6 +38,7 @@ public class MyJavaClass {
         System.out.println("Number 2 index name:" + friendNames[2]);
         System.out.println("All names of friend: " + friendNames [0] + " " + friendNames[1] + " " + friendNames [2] + " " +friendNames[3] + " " + friendNames[4]);
         System.out.println("2nd position name with A : " +friendNames [2].startsWith("A"));
+
 
 
 
