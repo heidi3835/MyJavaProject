@@ -1,48 +1,70 @@
 package MyPackage;
 
-
 public class MyJavaClass {
     public static void main(String[] args) {
+        //6. Create a supermarket item finder
+        //	Take input from user and based on the input, you should display user which aisle has the item
+        //    For example: user enter milk, you program should say aisle 8. If the item is not found,
+        //    display a message saying "Out of stock "Please create program for below requirement
+        //        Milk = Aisle Eight
+        //        Eggs = Aisle Eight
+        //        French Fries = Aisle seven
+        //        Candy = Aisle Three
+        //        Frozen Pizza = Aisle seven
+        //        Donuts = Aisle Eight
+        //        Diapers = Aisle One
+        //        Apple = Aisle two
+        //        Orange = Aisle two
 
-        // Celsius to Kelvin
-       // T(K) = 20°C + 273.15 = 293.15 K
-        double celcius = 20;
-        double kelvin = (celcius+ 273.15);
-        System.out.println(kelvin);
+        int milk = '8';
+        switch (milk) {
+            case '1':
+                System.out.println("Aisle one Diapers should be aisle");
+                break;
 
-        // Celsius to Fahrenheit
-        // T(°F) = T(°C) × 9/5 + 32
-        double celcius2 = 45;
-        double fahrenheit =(celcius2) * 9/5 + 32;
-        System.out.println(fahrenheit);
+            case '2':
+                System.out.println("Aisle two Apple and oranges should be this aisle");
+                break;
 
-        //Kelvin to Celcius
-        // T(°C) = 300K - 273.15 = 26.85 °C
-        double kelvin2 = 300;
-        double celcius3 =(kelvin2 - 273.15);
-        System.out.println(celcius3);
+            case '3':
+                System.out.println("Aisle three Candy should be this aisle ");
+                break;
 
-        //Kelvin to Fahrenheit
-         //T(°F) = T(K) × 9/5 - 459.67
-        double kelvin3 = 400;
-        double fahrenheit2 =(kelvin3) * 9/5 - 459.67;
-        System.out.println(fahrenheit2);
-        
+            case '4':
+                System.out.println("Aisle four Kitchen stuff should be this aisle");
+
+                break;
+
+            case '5':
+                System.out.println("Aisle five Internetonial food should be this aisle");
+                break;
+
+            case '6':
+                System.out.println("Aisle seven Frozen food should be this aisle");
+                break;
+
+            case '7':
+                System.out.println("Aisle seven Soda should be this aisle");
+                break;
+
+            case '8':
+                System.out.println("Aisle eight milk out of stock");
+                break;
+
+            case '9':
+                System.out.println("Aisle nine ");
+                break;
+
+            default:
+                System.out.println("invalid number");
+
+                //questin 3
 
 
 
 
-
-
-
-
-
-
-
-
-        
-
-
+        }
+        }
 
     }
 
@@ -53,5 +75,43 @@ public class MyJavaClass {
 
 
 
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
